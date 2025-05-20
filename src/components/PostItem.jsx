@@ -52,7 +52,7 @@ function PostItem({ posts }) {
             </ColGroup>
             <tbody>
                 {posts.map((post) => (
-                    <Row>
+                    <Row key={post.id}>
                         <TitleCell>
                             <StyledLink to={`/post/${post.id}`}>{post.title}</StyledLink>
                         </TitleCell>

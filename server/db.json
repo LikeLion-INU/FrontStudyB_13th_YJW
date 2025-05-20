@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "email": "ty9249@naver.com",
+            "password": "$2a$10$SRXscT0cYVQijJ.CofYP9OAz8N/rkOAPwomPGLmKeQlpoYxjyQlkS",
+            "id": 1
+        },
+        {
+            "email": "ty9249@gmail.com",
+            "password": "$2a$10$C8WFnXLEIo3aTj7wA6OpZOb2ZFL2M80JjwcL9N1CRWCpEVfmbQFl2",
+            "id": 2
+        }
+    ],
+    "posts": [
+        {
+            "id": 2,
+            "title": "이거 맞나",
+            "contents": "이거 너무 어렵다ㅎㅎ",
+            "authorId": 2,
+            "authorName": "ty9249@gmail.com",
+            "date": "2025. 5. 20."
+        }
+    ]
+}
