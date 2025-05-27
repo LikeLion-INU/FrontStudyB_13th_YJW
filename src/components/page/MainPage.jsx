@@ -18,8 +18,6 @@ const Title = styled.h2`
   margin:0;
 `;
 
-const postList = [];
-
 function MainPage() {
   const navigate = useNavigate();
   const { user, logout } = useAuth(); // 로그인 상태, 로그아웃 함수
