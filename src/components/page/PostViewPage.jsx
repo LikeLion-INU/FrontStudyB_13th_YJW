@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Button from "../button";
 import styled from "styled-components";
@@ -49,9 +49,9 @@ const PostContents = styled.p`
   text-align: left;
 `;
 
-const Comment = styled.div`
-  margin-top: 40px;
-`;
+// const Comment = styled.div`
+//   margin-top: 40px;
+// `;
 
 
 function PostViewPage({ setPosts, posts }) {

@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import PostViewPage from "./PostViewPage";
 import PostItem from "../PostItem";
 import Button from "../button";
-import PostWritePage from "./PostWritePage";
 import { useNavigate } from "react-router-dom";
 import Header from "../Header";
 import { useAuth } from "../../contexts/AuthContext";
