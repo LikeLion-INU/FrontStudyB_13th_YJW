@@ -85,7 +85,7 @@ function PostWritePage({ setPosts, posts }) {
       // setPosts(updatedPosts);
     } else {
       const newPost = {
-        id: posts.length + 1,
+        // id: posts.length + 1,
         title,
         contents,
         authorId: user?.id,
